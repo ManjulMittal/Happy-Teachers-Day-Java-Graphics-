@@ -38,14 +38,6 @@ public class Main extends JFrame{
         g.setFont(font);
         int t = 10000;
         while(t-->0){
-            try
-            {
-                Thread.sleep(100);
-            }
-            catch(InterruptedException ex)
-            {
-                Thread.currentThread().interrupt();
-            }
         g.setColor(Color.magenta);
 
         g.drawString("Happy", 10,200);
